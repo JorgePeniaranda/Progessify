@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Progessify - Gestor de Proyectos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Progessify es una aplicación de gestión de proyectos diseñada para ayudarte a mantener un seguimiento organizado y productivo de tus proyectos personales y académicos. Con Progessify, podrás crear tu cuenta personal, almacenar proyectos, ver estadísticas de productividad y disfrutar de una interfaz intuitiva basada en React y diseñada con Tailwind CSS para una experiencia de usuario fluida y agradable.
 
-## Available Scripts
+## Características principales
 
-In the project directory, you can run:
+- Gestión de proyectos personalizada: Crea y organiza tus proyectos en un solo lugar, manteniendo un registro detallado de cada uno de ellos.
 
-### `npm start`
+- Estadísticas de proyectos: Visualiza estadísticas y métricas relevantes sobre tus proyectos, lo que te permitirá tener una visión más clara de tu progreso y productividad a lo largo del tiempo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Estadísticas semanales: Comprueba semanalmente qué tan productivo has sido, con una visión general de tus tareas y logros.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Escalabilidad para estudiantes: Progessify se adapta perfectamente para estudiantes que necesitan gestionar tareas, trabajos académicos y proyectos.
 
-### `npm test`
+- Carpetas de proyectos: Organiza proyectos más grandes mediante la creación de carpetas para agrupar proyectos afines.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Descripción y características de los proyectos
 
-### `npm run build`
+Cada proyecto que almacenes en Progessify contendrá las siguientes descripciones y características para una gestión eficiente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Título: Un nombre descriptivo para identificar el proyecto.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Descripción del proyecto: Una breve pero clara descripción que detalle el objetivo y alcance del proyecto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Recursos útiles: Espacio para incluir enlaces o notas sobre recursos útiles que te ayudarán a realizar el proyecto de manera más efectiva.
 
-### `npm run eject`
+- Tiempo estimado y fecha límite: Establece una estimación del tiempo necesario para completar el proyecto y, si es relevante, fija una fecha límite para su finalización.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- TaskList (lista de tareas): Divide el proyecto en una lista de pasos o tareas más pequeñas para llevar un seguimiento detallado de tu progreso.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Categoría: Asigna una categoría al proyecto para una clasificación organizada.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Prioridad: Indica la prioridad del proyecto en relación con otros para enfocar tus esfuerzos en lo más importante.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tecnologías utilizadas
 
-## Learn More
+- Frontend: React
+- Diseño: Tailwind CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Instalación
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para ejecutar Progessify en tu entorno local, sigue los siguientes pasos:
 
-### Code Splitting
+1. Clona este repositorio.
+1. Navega a la carpeta raíz del proyecto.
+1. Ejecuta el siguiente comando para instalar las dependencias:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+1. Inicia la aplicación con:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Listo! Ahora puedes acceder a Progessify en tu navegador en la dirección http://localhost:3000/.
